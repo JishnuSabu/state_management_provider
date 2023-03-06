@@ -29,6 +29,7 @@ class _MyListScreenState extends State<MyListScreen> {
               child: ListTile(
                 title: Text(currentMovie.title),
                 subtitle: Text(currentMovie.runtime ?? ''),
+
                 trailing: TextButton(
                   child: const Text(
                     'Remove',
